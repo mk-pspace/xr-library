@@ -11,6 +11,22 @@
 - 앞으로 다국어화를 추가해 통해 우리의 문화재를 영미권 등 해외에도 보여주고 싶습니다.
 <br><br>
 
+## 앱 콘텐츠 구성
+1. 세 가지 메인 메뉴로 `자연사, 우리나라 문화재, 해외 문화재`를 구성하려 합니다.
+2. 메뉴를 선택해 들어가면 해당 분야의 3D 콘텐츠들과 그에 대한 설명을 볼 수 있습니다.
+3. 또한 AR로 보기 기능으로 실감나게 체험하듯이 볼 수 있습니다.
+<img src="./screenshots/demoshot0.jpg" width="32%">
+<img src="./screenshots/demoshot1.jpg" width="32%">
+<img src="./screenshots/demoshot2.jpg" width="32%">
+<br><br>
 
-
-
+## 시범 콘텐츠 웹페이지
+- 자연사 유산 <br>
+<img src="./screenshots/demo1_3d_view0.jpg" width="200px" height="400px">
+<img src="./screenshots/demo1_ar_view0.jpg" width="200px" height="400px">
+<br>
+- 역사 유산 <br>
+<img src="./screenshots/demo2_3d_view0.jpg" width="200px" height="400px">
+<img src="./screenshots/demo2_ar_view1.jpg" width="200px" height="400px">
+<br>
+<br>
