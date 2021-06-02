@@ -18,15 +18,7 @@
 <br><br>
 
 ## 시범 콘텐츠 웹페이지
-- 자연사 유산 <br> 
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo1.html) 
- 
-<p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="40%">
-<img src="./screenshots/demo1_ar_view0.jpg" width="40%">
-</p>
-<br>
-
-- 역사 유산 <br>
+- 해치 석상 (역사 유산) <br>
 [PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo2.html)
 
 <p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="40%">
@@ -35,8 +27,15 @@
 <br>
 <br>
 
+- 트리케라톱스 머리뼈 (자연사 유산) <br> 
+[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo1.html) 
+ 
+<p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="40%">
+<img src="./screenshots/demo1_ar_view0.jpg" width="40%">
+</p>
+<br>
+
 ## 정식 버전 앱 기능 (개발중)
-* 웹앱으로 AR 사진과 동영상 찍기
 * 3D 오브젝트의 여러 부분마다 상세 설명
 * 다국어 지원 (영어 등)
 * 지속적인 콘텐츠 추가 
