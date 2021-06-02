@@ -13,19 +13,25 @@
 <br><br>
 
 ## 앱 콘텐츠 구성
-1. 메인 콘텐츠 메뉴로 `자연사, 우리나라 문화재, 해외 문화재`를 구성하려 합니다.
+1. 메인 콘텐츠 메뉴로 `동물, 자연사, 우리나라 문화재, 해외 문화재` 등을 구성하려 합니다.
 2. 메뉴를 선택해 들어가면 해당 분야의 3D 모델들과 그에 대한 설명을 볼 수 있습니다.
 3. 또한 AR로 보기 기능으로 실감나게 체험하듯이 볼 수 있습니다.
-<br><br>
+<p align="left"><img src="./screenshots/main0.jpg" width="30%">
+<img src="./screenshots/navigation0.jpg" width="30%">
+<img src="./demo/index_qr.png" width="30%"></p> 
+
+</p>
+<br>
+<br>
 
 ## 시범 콘텐츠 웹페이지
 - 해치 석상 (우리나라 문화유산) <br> 
 [3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo2.html)   
 
-<p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="30%">
+<p align="left">
+<img src="./screenshots/demo2_3d_view0.jpg" width="30%">
 <img src="./screenshots/demo2_ar_view1.jpg" width="30%">
 <img src="./demo/demo2_qr.png" width="30%">
-</p>
 <br>
 <br>
 
@@ -45,10 +51,11 @@
 [3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo4.html)
 
 - demo index (light demo 4개 업데이트)
-<p><img src="./demo/index_qr.png" width="30%"></p>
 
 
-## 정식 버전 앱 기능 (개발중)
+
+## 정식 버전 앱 플랫폼 (개발중)
+* 카테고리별 네비게이션 GUI
 * 3D 오브젝트의 여러 부분마다 상세 설명
 * 다국어 지원 (영어 등)
 * 지속적인 콘텐츠 추가 
