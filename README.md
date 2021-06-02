@@ -18,8 +18,9 @@
 <br><br>
 
 ## 시범 콘텐츠 웹페이지
-- 해치 석상 (우리나라 문화유산) <br>
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo2.html) / 모바일 AR 접속용 QR은 아래를 참고 바랍니다  
+- 해치 석상 (우리나라 문화유산) <br> AR 체험은 모바일에서 가능하므로 아래 QR을 스캔링크를 이용 바랍니다
+
+[3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo2.html)   
 
 <p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="30%">
 <img src="./screenshots/demo2_ar_view1.jpg" width="30%">
@@ -29,7 +30,7 @@
 <br>
 
 - 트리케라톱스 머리뼈 (자연사 유산) <br> 
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo1.html) / 모바일 AR 접속용 QR은 아래를 참고 바랍니다
+[3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo1.html) 
  
 <p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="30%">
 <img src="./screenshots/demo1_ar_view0.jpg" width="30%">
@@ -38,10 +39,10 @@
 <br>
 
 - 오스트리아 비엔나 사자 석상 (해외 문화유산) <br> 
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo3.html)
+[3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo3.html)
 
 - 장수풍뎅이 (동물들) <br> 
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo4.html)
+[3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo4.html)
 
 ## 정식 버전 앱 기능 (개발중)
 * 3D 오브젝트의 여러 부분마다 상세 설명
