@@ -16,6 +16,8 @@
 1. 메인 콘텐츠 메뉴로 `동물, 자연사, 우리나라 문화재, 해외 문화재` 등을 구성하려 합니다.
 2. 메뉴를 선택해 들어가면 해당 분야의 3D 모델들과 그에 대한 설명을 볼 수 있습니다.
 3. 또한 AR로 보기 기능으로 실감나게 체험하듯이 볼 수 있습니다.
+
+(아직 개발중인 화면입니다)
 <p align="left"><img src="./screenshots/main0.jpg" width="30%">
 <img src="./screenshots/navigation0.jpg" width="30%">
 <img src="./demo/index_qr.png" width="30%"></p> 
