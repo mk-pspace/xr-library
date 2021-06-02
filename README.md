@@ -31,8 +31,8 @@
 [3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo2.html)   
 
 <p align="left">
-<img src="./screenshots/demo2_3d_view0.jpg" width="30%" style="border-image: url('./screenshots/demo2_3d_view0.jpg') 1 lightgray;">
-<img src="./screenshots/demo2_ar_view1.jpg" width="30%"style="border-image: url('./screenshots/demo2_ar_view1.jpg') 1 lightgray;">
+<img src="./screenshots/demo2_3d_view0.jpg" width="30%" style="border-image: url('./screenshots/demo2_3d_view0.jpg') 1px lightgray;">
+<img src="./screenshots/demo2_ar_view1.jpg" width="30%"style="border-image: url('./screenshots/demo2_ar_view1.jpg') 1px lightgray;">
 <img src="./demo/demo2_qr.png" width="30%">
 <br>
 <br>
