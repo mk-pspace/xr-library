@@ -18,12 +18,16 @@
 <br><br>
 
 ## 시범 콘텐츠 웹페이지
-- 자연사 유산 <br>
+- 자연사 유산 <br> 
+[PC 브라우저 (3D만) 체험 링크](https://eknim.github.io/xr-library/demo/demo1.html) 
+ 
 <p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="40%">
 <img src="./screenshots/demo1_ar_view0.jpg" width="40%">
 </p>
 <br>
 - 역사 유산 <br>
+[PC 브라우저 (3D만) 체험 링크](https://eknim.github.io/xr-library/demo/demo2.html)
+
 <p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="40%">
 <img src="./screenshots/demo2_ar_view1.jpg" width="40%">
 </p>
