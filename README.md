@@ -19,8 +19,7 @@
 <br><br>
 
 ## 시범 콘텐츠 웹페이지
-- 해치 석상 (우리나라 문화유산) <br> AR 체험은 모바일에서 가능하므로 아래 QR을 스캔링크를 이용 바랍니다
-
+- 해치 석상 (우리나라 문화유산) <br> 
 [3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo2.html)   
 
 <p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="30%">
@@ -44,6 +43,10 @@
 
 - 장수풍뎅이 (동물 콘텐츠) <br> 
 [3D 콘텐츠 데모](https://eknim.github.io/xr-library/demo/demo4.html)
+
+- demo index (light demo 4개 업데이트)
+<p><img src="./demo/index_qr.png" width="30%"></p>
+
 
 ## 정식 버전 앱 기능 (개발중)
 * 3D 오브젝트의 여러 부분마다 상세 설명
