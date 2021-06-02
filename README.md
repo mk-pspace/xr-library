@@ -19,13 +19,13 @@
 
 ## 시범 콘텐츠 웹페이지
 - 자연사 유산 <br>
-<span align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="40%">
+<p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="40%">
 <img src="./screenshots/demo1_ar_view0.jpg" width="40%">
-</span>
+</p>
 <br>
 - 역사 유산 <br>
-<span align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="40%">
+<p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="40%">
 <img src="./screenshots/demo2_ar_view1.jpg" width="40%">
-</span>
+</p>
 <br>
 <br>
