@@ -19,21 +19,21 @@
 
 ## 시범 콘텐츠 웹페이지
 - 해치 석상 (역사 유산) <br>
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo2.html)
+[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo2.html) / 모바일 AR 접속용 QR은 밑쪽 참고 바랍니다  
 
-<p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="35%">
-<img src="./screenshots/demo2_ar_view1.jpg" width="35%">
-<img src="./demo/demo2_qr.png" width="20%">
+<p align="left"><img src="./screenshots/demo2_3d_view0.jpg" width="30%">
+<img src="./screenshots/demo2_ar_view1.jpg" width="30%">
+<img src="./demo/demo2_qr.png" width="30%">
 </p>
 <br>
 <br>
 
 - 트리케라톱스 머리뼈 (자연사 유산) <br> 
-[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo1.html) 
+[PC 브라우저용 3D 데모](https://eknim.github.io/xr-library/demo/demo1.html) / 모바일 AR 접속용 QR은 밑쪽 참고 바랍니다
  
-<p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="35%">
-<img src="./screenshots/demo1_ar_view0.jpg" width="35%">
-<img src="./demo/demo1_qr.png" width="20%">
+<p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="30%">
+<img src="./screenshots/demo1_ar_view0.jpg" width="30%">
+<img src="./demo/demo1_qr.png" width="30%">
 </p>
 <br>
 
