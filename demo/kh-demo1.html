@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo2</title>
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <div class="container">
+    <model-viewer id="model_viewer" src="../assets/models/haetae.glb" ios-src="../assets/models/haetae.usdz" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
+      <!-- <model-viewer id="model_viewer" src="../assets/models/haetae.glb" poster="../assets/models/triceratops_skull.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel"> -->
+  
+        <button slot="ar-button" id="ar-button">
+          AR로 놓아 보기
+        </button>
+      
+        <div id="ar-prompt">
+          <img src="../assets/hand.png">
+        </div>
+      
+        <button id="ar-failure">
+          AR이 지원되지 않습니다.
+        </button>
+      
+      </model-viewer>
+
+      <div id="annotation"><b>해태</b><br>한국을 포함한, 동아시아 고대 전설 속의 ‘시비와 선악을 판단하여 안다고 하는 상상의 동물’이다. 해치라고도 한다. 사자와 비슷하나 기린처럼 머리에 뿔이 있다. 목에는 방울을 달고 있으며, 몸 전체는 비늘로 덮여 있다. <br>Licensed under CC0 </div>
+    </div>
+      
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css">
+
+      <style>
+
+        @font-face { 
+            font-family: 'NanumBarunGothic', sans-serif;
+        }
+
+        /* This keeps child nodes hidden while the element loads */
+        /* :not(:defined) > * {
+          display: none;
+        } */
+
+        body {
+            width      : 100%;
+            height     : 100%;
+            margin     : 0px;
+            border: 0px solid red;
+        }
+
+        html, body {
+            overflow-y  : hidden;
+            font-family : 'Nanum Barun Gothic', sans-serif;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+      
+        .container {
+            width: 100% !important;
+            height: 100% !important;    
+            position: fixed;
+            border: 0px dashed blue;        
+            background-color: white;
+            overflow-x: hidden;
+            --poster-color:white;
+        }
+
+        .container #model_viewer {
+            width     : 100%;
+            height    : 100%; 
+            position  : absolute;
+        }
+      
+        #ar-button {
+          background-image: url(../assets/ic_view_in_ar_new_googblue_48dp.png);
+          background-repeat: no-repeat;
+          background-size: 20px 20px;
+          background-position: 12px 50%;
+          background-color: #fff;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          white-space: nowrap;
+          bottom: 132px;
+          padding: 0px 16px 0px 40px;
+          font-family: Roboto Regular, Helvetica Neue, sans-serif;
+          font-size: 14px;
+          color:#4285f4;
+          height: 36px;
+          line-height: 36px;
+          border-radius: 18px;
+          border: 1px solid #DADCE0;
+        }
+      
+        #ar-button:active {
+          background-color: #E8EAED;
+        }
+      
+        #ar-button:focus {
+          outline: none;
+        }
+      
+        #ar-button:focus-visible {
+          outline: 1px solid #4285f4;
+        }
+
+        #annotation{
+          background-color: #88888888;
+          position: absolute;
+          /* transform: translate(10px, 10px); */
+          border-radius: 10px;
+          padding: 10px;
+          margin: 15px;
+        }
+      
+        @keyframes circle {
+          from { transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg); }
+          to   { transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg); }
+        }
+      
+        @keyframes elongate {
+          from { transform: translateX(100px); }
+          to   { transform: translateX(-100px); }
+        }
+      
+        model-viewer > #ar-prompt {
+          position: absolute;
+          left: 50%;
+          bottom: 175px;
+          animation: elongate 2s infinite ease-in-out alternate;
+          display: none;
+        }
+      
+        model-viewer[ar-status="session-started"] > #ar-prompt {
+          display: block;
+        }
+      
+        model-viewer > #ar-prompt > img {
+          animation: circle 4s linear infinite;
+        }
+      
+        model-viewer > #ar-failure {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 175px;
+          display: none;
+        }
+      
+        model-viewer[ar-tracking="not-tracking"] > #ar-failure {
+          display: block;
+        }
+      
+        .slider {
+          width: 100%;
+          text-align: center;
+          overflow: hidden;
+          position: absolute;
+          bottom: 16px;
+        }
+      
+        .slides {
+          display: flex;
+          overflow-x: auto;
+          scroll-snap-type: x mandatory;
+          scroll-behavior: smooth;
+          -webkit-overflow-scrolling: touch;
+        }
+      
+        .slide {
+          scroll-snap-align: start;
+          flex-shrink: 0;
+          width: 100px;
+          height: 100px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: #fff;
+          margin-right: 10px;
+          border-radius: 10px;
+          border: none;
+          display: flex;
+        }
+      
+        .slide.selected {
+          border: 2px solid #4285f4;
+        }
+      
+        .slide:focus {
+          outline: none;
+        }
+      
+        .slide:focus-visible {
+          outline: 1px solid #4285f4;
+        }
+      
+      </style>
+</body>
+</html>
