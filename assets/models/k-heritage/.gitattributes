@@ -1,0 +1,2 @@
+T1449 filter=lfs diff=lfs merge=lfs -text
+T1449.usdz filter=lfs diff=lfs merge=lfs -text
