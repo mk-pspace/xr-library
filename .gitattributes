@@ -2,3 +2,4 @@ assets/models/k-heritage/NT275/scene.bin filter=lfs diff=lfs merge=lfs -text
 assets/models/k-heritage/NT275.usdz filter=lfs diff=lfs merge=lfs -text
 assets/models/k-heritage/nt-275.usdz filter=lfs diff=lfs merge=lfs -text
 assets/models/k-heritage/nt-275/scene.bin filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
