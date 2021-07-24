@@ -20,7 +20,6 @@
 (개발중에 있습니다)
 <p align="left"><img src="./screenshots/main0.jpg" width="30%">
 <img src="./screenshots/navigation0.jpg" width="30%">
-<img src="./demo/index_qr.png" width="30%"></p> 
 
 </p>
 <br>
@@ -33,7 +32,6 @@
 <p align="left">
 <img src="./screenshots/demo2_3d_view0.jpg" width="30%" style="border-image: url('./screenshots/demo2_3d_view0.jpg') 1px lightgray;">
 <img src="./screenshots/demo2_ar_view1.jpg" width="30%"style="border-image: url('./screenshots/demo2_ar_view1.jpg') 1px lightgray;">
-<img src="./demo/demo2_qr.png" width="30%">
 <br>
 <br>
 
@@ -42,7 +40,6 @@
  
 <p align="left"><img src="./screenshots/demo1_3d_view0.jpg" width="30%">
 <img src="./screenshots/demo1_ar_view0.jpg" width="30%">
-<img src="./demo/demo1_qr.png" width="30%">
 </p>
 <br>
 
